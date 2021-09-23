@@ -203,7 +203,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-09-23 22:14:28 / 修改时间：22:21:35" itemprop="dateCreated datePublished" datetime="2021-09-23T22:14:28+08:00">2021-09-23</time>
+              <time title="创建时间：2021-09-23 22:14:28 / 修改时间：22:24:37" itemprop="dateCreated datePublished" datetime="2021-09-23T22:14:28+08:00">2021-09-23</time>
             </span>
 
           
@@ -235,15 +235,15 @@
 <p>第一次启动可能要一些时间下载镜像，请耐心等待</p>
 <p>启动后可查看状态</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">minikube status</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><img src="test-image/%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.43.30.png" alt=""></p>
+<p><img src="%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.43.30.png" alt=""></p>
 <h2 id="部署pod"><a href="#部署pod" class="headerlink" title="部署pod"></a>部署pod</h2><p>K8s in Action一书的指令中generator在现在的版本已被废弃</p>
-<p><img src="test-image/%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.45.00.png" alt=""></p>
+<p><img src="%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.45.00.png" alt=""></p>
 <p>且现在这条指令不会创建rc，想要达到书上的效果可以通过如下yaml文件来部署pod</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">apiVersion:</span> <span class="string">v1</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">ReplicationController</span></span><br><span class="line"><span class="attr">metadata:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">my-kubia</span></span><br><span class="line"><span class="attr">spec:</span></span><br><span class="line">  <span class="attr">replicas:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">template:</span></span><br><span class="line">    <span class="attr">metadata:</span></span><br><span class="line">      <span class="attr">labels:</span></span><br><span class="line">        <span class="attr">app:</span> <span class="string">kubia</span></span><br><span class="line">    <span class="attr">spec:</span></span><br><span class="line">      <span class="attr">containers:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">kubia</span></span><br><span class="line">        <span class="attr">test-image:</span> <span class="string">luksa/kubia</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">containerPort:</span> <span class="number">8080</span></span><br><span class="line">          <span class="attr">protocol:</span> <span class="string">TCP</span></span><br></pre></td></tr></table></figure>
 <p>保存为kubia-rc-test.yaml并创建rc</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">k create -f kubia-rc-test.yaml</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>执行如下指令可看到状态（po为pods的缩写）</p>
-<p><img src="test-image/%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.49.06.png" alt=""></p>
+<p><img src="%E6%88%AA%E5%B1%8F2021-09-21%20%E4%B8%8B%E5%8D%8811.49.06.png" alt=""></p>
 <h2 id="添加service"><a href="#添加service" class="headerlink" title="添加service"></a>添加service</h2><p>以下指令为指定rc（replicationcontroller）添加service</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">k expose rc my-kubia --<span class="built_in">type</span>=LoadBalancer --name kubia-http</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>minikube可通过如下方式访问</p>
