@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="参考 Simon Tatham 的文章https:&#x2F;&#x2F;www.chiark.greenend.org.uk&#x2F;~sgtatham&#x2F;coroutines.html 译文为https:&#x2F;&#x2F;mthli.xyz&#x2F;coroutines-in-c&#x2F; 协程是一组序列化的子过程，与线程不同，协程的调度是由用户而非操作系统执行的，协程可以在任意时刻让出CPU（称为yield操作），下次调用时从上次yield的地方继续">
+  <meta name="description" content="参考 Simon Tatham 的文章https:&#x2F;&#x2F;www.chiark.greenend.org.uk&#x2F;~sgtatham&#x2F;coroutines.html 译文为https:&#x2F;&#x2F;mthli.xyz&#x2F;coroutines-in-c&#x2F;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于Duff&#39;s Device的C简易无栈协程实现">
 <meta property="og:url" content="http://example.com/2020/10/22/%E5%9F%BA%E4%BA%8EDuff's%20Device%E7%9A%84C%E7%AE%80%E6%98%93%E6%97%A0%E6%A0%88%E5%8D%8F%E7%A8%8B%E5%AE%9E%E7%8E%B0/index.html">
 <meta property="og:site_name" content="图斯卡蓝瑟">
-<meta property="og:description" content="参考 Simon Tatham 的文章https:&#x2F;&#x2F;www.chiark.greenend.org.uk&#x2F;~sgtatham&#x2F;coroutines.html 译文为https:&#x2F;&#x2F;mthli.xyz&#x2F;coroutines-in-c&#x2F; 协程是一组序列化的子过程，与线程不同，协程的调度是由用户而非操作系统执行的，协程可以在任意时刻让出CPU（称为yield操作），下次调用时从上次yield的地方继续">
+<meta property="og:description" content="参考 Simon Tatham 的文章https:&#x2F;&#x2F;www.chiark.greenend.org.uk&#x2F;~sgtatham&#x2F;coroutines.html 译文为https:&#x2F;&#x2F;mthli.xyz&#x2F;coroutines-in-c&#x2F;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-10-22T04:15:00.000Z">
-<meta property="article:modified_time" content="2021-09-24T00:31:01.793Z">
+<meta property="article:modified_time" content="2021-09-24T00:43:48.372Z">
 <meta property="article:author" content="tusikalanse">
 <meta name="twitter:card" content="summary">
 
@@ -213,7 +213,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-24 08:31:01" itemprop="dateModified" datetime="2021-09-24T08:31:01+08:00">2021-09-24</time>
+                <time title="修改时间：2021-09-24 08:43:48" itemprop="dateModified" datetime="2021-09-24T08:43:48+08:00">2021-09-24</time>
               </span>
 
           <br>
@@ -243,6 +243,7 @@
       
         <p>参考 Simon Tatham 的文章<a target="_blank" rel="noopener" href="https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html">https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html</a></p>
 <p>译文为<a target="_blank" rel="noopener" href="https://mthli.xyz/coroutines-in-c/">https://mthli.xyz/coroutines-in-c/</a></p>
+<span id="more"></span>
 <p>协程是一组序列化的子过程，与线程不同，协程的调度是由用户而非操作系统执行的，协程可以在任意时刻让出CPU（称为yield操作），下次调用时从上次yield的地方继续执行</p>
 <p>Simon Tatham利用Duff’s Device实现了一种简易的无栈协程，示例代码如下：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">function</span><span class="params">(<span class="keyword">void</span>)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> i, state = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in"><span class="keyword">switch</span></span> (state) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">0</span>: </span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">            state = <span class="number">1</span>; </span><br><span class="line">            <span class="keyword">return</span> i;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>:;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
