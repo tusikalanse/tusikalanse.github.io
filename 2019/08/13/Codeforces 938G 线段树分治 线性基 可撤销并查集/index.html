@@ -30,8 +30,8 @@
 <meta property="article:published_time" content="2019-08-12T22:58:00.000Z">
 <meta property="article:modified_time" content="2021-09-24T00:43:39.186Z">
 <meta property="article:author" content="tusikalanse">
-<meta property="article:tag" content="codeforces">
 <meta property="article:tag" content="线段树">
+<meta property="article:tag" content="codeforces">
 <meta property="article:tag" content="线性基">
 <meta name="twitter:card" content="summary">
 
@@ -356,8 +356,8 @@ $(function() {
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/codeforces/" rel="tag"># codeforces</a>
               <a href="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/" rel="tag"># 线段树</a>
+              <a href="/tags/codeforces/" rel="tag"># codeforces</a>
               <a href="/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/" rel="tag"># 线性基</a>
           </div>
 
@@ -541,9 +541,14 @@ $(function() {
                 console.error('Failed to save visitor count', error);
               });
           } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
+              Counter('post', '/classes/Counter', { title, url, time: 1 })
+                .then(response => response.json())
+                .then(() => {
+                  leancloudSelector(url).innerText = 1;
+                })
+                .catch(error => {
+                  console.error('Failed to create', error);
+                });
           }
         })
         .catch(error => {
@@ -570,7 +575,7 @@ $(function() {
         });
     }
 
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"zLgEp9HyUSRUyXjyyDP1RnGO-gzGzoHsz","app_key":"WNJXm78ttwXIognYhSziQQUt","server_url":null,"security":true};
+    let { app_id, app_key, server_url } = {"enable":true,"app_id":"zLgEp9HyUSRUyXjyyDP1RnGO-gzGzoHsz","app_key":"WNJXm78ttwXIognYhSziQQUt","server_url":null,"security":false};
     function fetchData(api_server) {
       var Counter = (method, url, data) => {
         return fetch(`${api_server}/1.1${url}`, {
