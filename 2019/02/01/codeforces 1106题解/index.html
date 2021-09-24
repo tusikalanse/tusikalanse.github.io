@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="A. Lunar New Year and Cross Counting Description: Lunar New Year is approaching, and you bought a matrix with lots of “crosses”. This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without">
+  <meta name="description" content="A. Lunar New Year and Cross CountingDescription:Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without qu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="codeforces 1106题解">
 <meta property="og:url" content="http://example.com/2019/02/01/codeforces%201106%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="图斯卡蓝瑟">
-<meta property="og:description" content="A. Lunar New Year and Cross Counting Description: Lunar New Year is approaching, and you bought a matrix with lots of “crosses”. This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without">
+<meta property="og:description" content="A. Lunar New Year and Cross CountingDescription:Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without qu">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-02-01T01:05:00.000Z">
-<meta property="article:modified_time" content="2021-09-24T00:35:08.630Z">
+<meta property="article:modified_time" content="2021-09-24T00:46:43.506Z">
 <meta property="article:author" content="tusikalanse">
 <meta property="article:tag" content="codeforces">
 <meta name="twitter:card" content="summary">
@@ -214,7 +214,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-24 08:35:08" itemprop="dateModified" datetime="2021-09-24T08:35:08+08:00">2021-09-24</time>
+                <time title="修改时间：2021-09-24 08:46:43" itemprop="dateModified" datetime="2021-09-24T08:46:43+08:00">2021-09-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -251,7 +251,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="A-Lunar-New-Year-and-Cross-Counting"><a href="#A-Lunar-New-Year-and-Cross-Counting" class="headerlink" title="A. Lunar New Year and Cross Counting"></a>A. Lunar New Year and Cross Counting</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description:"></a>Description:</h2><p>Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.<br>This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without quotes). The element in the $i$-th row and the $j$-th column $(i, j)$ is defined as $M(i, j)$, where $1 \leq i, j \leq n$. We define a cross appearing in the $i$-th row and the $j$-th column ($1 &lt; i, j &lt; n$) if and only if $M(i, j) = M(i - 1, j - 1) = M(i - 1, j + 1) = M(i + 1, j - 1) = M(i + 1, j + 1) = $ ‘X’.<br>The following figure illustrates a cross appearing at position $(2, 2)$ in a $3 \times 3$ matrix.<br> X.X.X.X.X Your task is to find out the number of crosses in the given matrix $M$. Two crosses are different if and only if they appear in different rows or columns.</p>
+        <h1 id="A-Lunar-New-Year-and-Cross-Counting"><a href="#A-Lunar-New-Year-and-Cross-Counting" class="headerlink" title="A. Lunar New Year and Cross Counting"></a>A. Lunar New Year and Cross Counting</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description:"></a>Description:</h2><p>Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.<br>This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without quotes). The element in the $i$-th row and the $j$-th column $(i, j)$ is defined as $M(i, j)$, where $1 \leq i, j \leq n$. We define a cross appearing in the $i$-th row and the $j$-th column ($1 &lt; i, j &lt; n$) if and only if $M(i, j) = M(i - 1, j - 1) = M(i - 1, j + 1) = M(i + 1, j - 1) = M(i + 1, j + 1) = $ ‘X’.<br>The following figure illustrates a cross appearing at position $(2, 2)$ in a $3 \times 3$ matrix.<br> X.X.X.X.X Your task is to find out the number of crosses in the given matrix $M$. Two crosses are different if and only if they appear in different rows or columns.<br><span id="more"></span></p>
 <h2 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h2><p>The first line contains only one positive integer $n$ ($1 \leq n \leq 500$), denoting the size of the matrix $M$.<br>The following $n$ lines illustrate the matrix $M$. Each line contains exactly $n$ characters, each of them is ‘X’ or ‘.’. The $j$-th element in the $i$-th line represents $M(i, j)$, where $1 \leq i, j \leq n$.</p>
 <h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>Output a single line containing only one integer number $k$ — the number of crosses in the given matrix $M$.</p>
 <h2 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h2><p>5<br>…..<br>.XXX.<br>.XXX.<br>.XXX.<br>…..</p>
