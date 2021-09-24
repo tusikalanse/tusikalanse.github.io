@@ -277,7 +277,35 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/</loc>
+    <lastmod>2021-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/</loc>
+    <lastmod>2021-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/codeforces/</loc>
+    <lastmod>2021-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
+    <lastmod>2021-09-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/docker/</loc>
     <lastmod>2021-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -311,34 +339,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/</loc>
-    <lastmod>2021-09-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/</loc>
-    <lastmod>2021-09-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/docker/</loc>
-    <lastmod>2021-09-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
-    <lastmod>2021-09-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -349,14 +349,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/linux/</loc>
+    <loc>http://example.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
     <lastmod>2021-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
+    <loc>http://example.com/categories/linux/</loc>
     <lastmod>2021-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
