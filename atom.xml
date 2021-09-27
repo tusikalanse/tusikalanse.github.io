@@ -24,7 +24,7 @@
     <updated>2021-09-26T15:20:24.703Z</updated>
     
     
-    <summary type="html">&lt;p&gt;用于解决需要多个 GCC 版本的场景，可以自定义各版本 GCC 的名称&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;用于解决需要多个GCC版本的场景，可以自定义各版本GCC的名称&lt;br&gt;</summary>
     
     
     
@@ -34,15 +34,15 @@
   </entry>
   
   <entry>
-    <title>Rootless Docker 安装</title>
+    <title>Rootless Docker安装</title>
     <link href="https://tusikalanse.com/posts/65ac3c57.html"/>
     <id>https://tusikalanse.com/posts/65ac3c57.html</id>
     <published>2021-09-21T09:45:15.000Z</published>
     <updated>2021-09-21T09:45:15.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;脚本安装&quot;&gt;&lt;a href=&quot;#脚本安装&quot; class=&quot;headerlink&quot; title=&quot;脚本安装&quot;&gt;&lt;/a&gt;脚本安装&lt;/h2&gt;&lt;p&gt;rootless docker 至少需要 docker20.10 版本，用脚本安装即可&lt;/p&gt;
-&lt;p&gt;安装脚本不能用 root 用户执行&lt;br&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;脚本安装&quot;&gt;&lt;a href=&quot;#脚本安装&quot; class=&quot;headerlink&quot; title=&quot;脚本安装&quot;&gt;&lt;/a&gt;脚本安装&lt;/h2&gt;&lt;p&gt;rootless docker至少需要docker20.10版本，用脚本安装即可&lt;/p&gt;
+&lt;p&gt;安装脚本不能用root用户执行&lt;br&gt;</summary>
     
     
     
@@ -54,15 +54,15 @@
   </entry>
   
   <entry>
-    <title>基于 Duff&#39;s Device 的 C 简易无栈协程实现</title>
+    <title>基于Duff&#39;s Device的C简易无栈协程实现</title>
     <link href="https://tusikalanse.com/posts/fd9e80fc.html"/>
     <id>https://tusikalanse.com/posts/fd9e80fc.html</id>
     <published>2020-10-22T04:15:00.000Z</published>
     <updated>2020-10-22T04:15:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;参考 Simon Tatham 的文章 &lt;a href=&quot;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&quot;&gt;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;译文为 &lt;a href=&quot;https://mthli.xyz/coroutines-in-c/&quot;&gt;https://mthli.xyz/coroutines-in-c/&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;参考 Simon Tatham 的文章&lt;a href=&quot;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&quot;&gt;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译文为&lt;a href=&quot;https://mthli.xyz/coroutines-in-c/&quot;&gt;https://mthli.xyz/coroutines-in-c/&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -70,7 +70,7 @@
   </entry>
   
   <entry>
-    <title>2017 杭电多校第一场</title>
+    <title>2017杭电多校第一场</title>
     <link href="https://tusikalanse.com/posts/10f44c60.html"/>
     <id>https://tusikalanse.com/posts/10f44c60.html</id>
     <published>2019-10-14T04:40:00.000Z</published>
@@ -79,7 +79,7 @@
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://codeforces.com/gym/102253&quot;&gt;Gym 链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;hdu6033-6044&lt;/p&gt;
-&lt;h2 id=&quot;A-Add-More-Zero&quot;&gt;&lt;a href=&quot;#A-Add-More-Zero&quot; class=&quot;headerlink&quot; title=&quot;A. Add More Zero&quot;&gt;&lt;/a&gt;A. Add More Zero&lt;/h2&gt;&lt;p&gt;每次询问给定一个 $n$，要求输出 $2^n-1$ 的十进制位数减一&lt;br&gt;</summary>
+&lt;h2 id=&quot;A-Add-More-Zero&quot;&gt;&lt;a href=&quot;#A-Add-More-Zero&quot; class=&quot;headerlink&quot; title=&quot;A. Add More Zero&quot;&gt;&lt;/a&gt;A. Add More Zero&lt;/h2&gt;&lt;p&gt;每次询问给定一个$n$，要求输出$2^n-1$的十进制位数减一&lt;br&gt;</summary>
     
     
     
@@ -91,7 +91,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第十场</title>
+    <title>2019杭电多校第十场</title>
     <link href="https://tusikalanse.com/posts/c167b3d6.html"/>
     <id>https://tusikalanse.com/posts/c167b3d6.html</id>
     <published>2019-08-21T07:19:00.000Z</published>
@@ -100,7 +100,7 @@
     
     <summary type="html">&lt;p&gt;这次终于不是苟上的首页了&lt;/p&gt;
 &lt;h2 id=&quot;1003-Valentine’s-Day&quot;&gt;&lt;a href=&quot;#1003-Valentine’s-Day&quot; class=&quot;headerlink&quot; title=&quot;1003. Valentine’s Day&quot;&gt;&lt;/a&gt;1003. Valentine’s Day&lt;/h2&gt;&lt;p&gt;solved at 01:02&lt;/p&gt;
-&lt;p&gt;$n$ 个物品，每个物品有 $p_i$ 的概率使你快乐，每个物品是否让你快乐是独立事件，你要选择一个子集，使得你快乐次数恰好为一的概率最大&lt;br&gt;</summary>
+&lt;p&gt;$n$个物品,每个物品有$p_i$的概率使你快乐,每个物品是否让你快乐是独立事件,你要选择一个子集,使得你快乐次数恰好为一的概率最大&lt;br&gt;</summary>
     
     
     
@@ -112,7 +112,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第九场</title>
+    <title>2019杭电多校第九场</title>
     <link href="https://tusikalanse.com/posts/44559612.html"/>
     <id>https://tusikalanse.com/posts/44559612.html</id>
     <published>2019-08-20T03:50:00.000Z</published>
@@ -121,7 +121,7 @@
     
     <summary type="html">&lt;p&gt;熟悉的后半场挂机节奏，又苟进首页了，很快乐&lt;/p&gt;
 &lt;h2 id=&quot;1001-Rikka-with-Quicksort&quot;&gt;&lt;a href=&quot;#1001-Rikka-with-Quicksort&quot; class=&quot;headerlink&quot; title=&quot;1001. Rikka with Quicksort&quot;&gt;&lt;/a&gt;1001. Rikka with Quicksort&lt;/h2&gt;&lt;p&gt;upsolved&lt;/p&gt;
-&lt;p&gt;不是我做的，1e9 调和级数分段打表&lt;br&gt;</summary>
+&lt;p&gt;不是我做的,1e9调和级数分段打表&lt;br&gt;</summary>
     
     
     
@@ -133,7 +133,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第十场</title>
+    <title>2019牛客多校第十场</title>
     <link href="https://tusikalanse.com/posts/4d58ef8f.html"/>
     <id>https://tusikalanse.com/posts/4d58ef8f.html</id>
     <published>2019-08-17T06:26:00.000Z</published>
@@ -141,7 +141,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;A-Blackjack&quot;&gt;&lt;a href=&quot;#A-Blackjack&quot; class=&quot;headerlink&quot; title=&quot;A. Blackjack&quot;&gt;&lt;/a&gt;A. Blackjack&lt;/h2&gt;&lt;p&gt;upsolved&lt;/p&gt;
-&lt;p&gt;题目等价于询问有 $n$ 个有权值 $x_i$ 的物品的一个随机排列，设 $pos$ 为第一个前缀权值和大于 $a$ 的位置，求 $\sum \limits_{i = 1}^{pos} x_i&amp;lt;=b$ 的概率 $(1 &amp;lt;= n &amp;lt;= 500, 1 &amp;lt;= a &amp;lt; b &amp;lt;= 500, \sum x_i&amp;gt;b)$&lt;br&gt;</summary>
+&lt;p&gt;题目等价于询问有$n$个有权值$x_i$的物品的一个随机排列，设$pos$为第一个前缀权值和大于$a$的位置，求$\sum \limits_{i = 1}^{pos} x_i&amp;lt;=b$的概率$(1 &amp;lt;= n &amp;lt;= 500, 1 &amp;lt;= a &amp;lt; b &amp;lt;= 500, \sum x_i&amp;gt;b)$&lt;br&gt;</summary>
     
     
     
@@ -153,7 +153,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第九场</title>
+    <title>2019牛客多校第九场</title>
     <link href="https://tusikalanse.com/posts/c86aca4b.html"/>
     <id>https://tusikalanse.com/posts/c86aca4b.html</id>
     <published>2019-08-15T07:20:00.000Z</published>
@@ -161,7 +161,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;A-The-power-of-Fibonacci&quot;&gt;&lt;a href=&quot;#A-The-power-of-Fibonacci&quot; class=&quot;headerlink&quot; title=&quot;A. The power of Fibonacci&quot;&gt;&lt;/a&gt;A. The power of Fibonacci&lt;/h2&gt;&lt;p&gt;upsolved&lt;/p&gt;
-&lt;p&gt;求斐波那契数列的 $m$ 次方的前 $n$ 项的和模 1e9 的值&lt;br&gt;</summary>
+&lt;p&gt;求斐波那契数列的$m$次方的前$n$项的和模1e9的值&lt;br&gt;</summary>
     
     
     
@@ -173,7 +173,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第八场</title>
+    <title>2019杭电多校第八场</title>
     <link href="https://tusikalanse.com/posts/3e98b74d.html"/>
     <id>https://tusikalanse.com/posts/3e98b74d.html</id>
     <published>2019-08-15T06:34:00.000Z</published>
@@ -181,8 +181,8 @@
     
     
     <summary type="html">&lt;p&gt;这场又变得快乐了起来，首页最后一名，很快乐&lt;/p&gt;
-&lt;h2 id=&quot;1003-Acesrc-and-Good-Numbers&quot;&gt;&lt;a href=&quot;#1003-Acesrc-and-Good-Numbers&quot; class=&quot;headerlink&quot; title=&quot;1003. Acesrc and Good Numbers&quot;&gt;&lt;/a&gt;1003. Acesrc and Good Numbers&lt;/h2&gt;&lt;p&gt;solved at 02:48 (+1)&lt;/p&gt;
-&lt;p&gt;不是很懂，队友 oeis 了 9 个数列打个表就过了…&lt;br&gt;</summary>
+&lt;h2 id=&quot;1003-Acesrc-and-Good-Numbers&quot;&gt;&lt;a href=&quot;#1003-Acesrc-and-Good-Numbers&quot; class=&quot;headerlink&quot; title=&quot;1003. Acesrc and Good Numbers&quot;&gt;&lt;/a&gt;1003. Acesrc and Good Numbers&lt;/h2&gt;&lt;p&gt;solved at 02:48(+1)&lt;/p&gt;
+&lt;p&gt;不是很懂，队友oeis了9个数列打个表就过了…&lt;br&gt;</summary>
     
     
     
@@ -194,7 +194,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第七场</title>
+    <title>2019杭电多校第七场</title>
     <link href="https://tusikalanse.com/posts/c9f39f0e.html"/>
     <id>https://tusikalanse.com/posts/c9f39f0e.html</id>
     <published>2019-08-15T05:48:00.000Z</published>
@@ -203,8 +203,8 @@
     
     <summary type="html">&lt;p&gt;咕咕了好久&lt;/p&gt;
 &lt;p&gt;这场真实自闭&lt;/p&gt;
-&lt;h2 id=&quot;1001-A-B-C&quot;&gt;&lt;a href=&quot;#1001-A-B-C&quot; class=&quot;headerlink&quot; title=&quot;1001. A + B = C&quot;&gt;&lt;/a&gt;1001. A + B = C&lt;/h2&gt;&lt;p&gt;solve at 03:40 (+12)&lt;/p&gt;
-&lt;p&gt;给你 A, B, C 你要找到一种方案，在 A, B, C 后各自添加 $[0, 1e6]$ 个零，使得 $A+B=C$&lt;br&gt;</summary>
+&lt;h2 id=&quot;1001-A-B-C&quot;&gt;&lt;a href=&quot;#1001-A-B-C&quot; class=&quot;headerlink&quot; title=&quot;1001. A + B = C&quot;&gt;&lt;/a&gt;1001. A + B = C&lt;/h2&gt;&lt;p&gt;solve at 03:40(+12)&lt;/p&gt;
+&lt;p&gt;给你A, B, C你要找到一种方案，在A, B, C后各自添加$[0, 1e6]$个零，使得$A+B=C$&lt;br&gt;</summary>
     
     
     
@@ -224,12 +224,9 @@
     
     
     <summary type="html">&lt;h1 id=&quot;Codeforces-938G-Shortest-Path-Queries&quot;&gt;&lt;a href=&quot;#Codeforces-938G-Shortest-Path-Queries&quot; class=&quot;headerlink&quot; title=&quot;Codeforces 938G Shortest Path Queries&quot;&gt;&lt;/a&gt;Codeforces 938G Shortest Path Queries&lt;/h1&gt;&lt;p&gt;一张连通图，三种操作&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;给 x 和 y 之间加上边权为 d 的边，保证不会产生重边&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;删除 x 和 y 之间的边，保证此边之前存在&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;询问 x 到 y 的路径异或最小值&lt;/p&gt;</summary>
+&lt;p&gt;1.给x和y之间加上边权为d的边，保证不会产生重边&lt;/p&gt;
+&lt;p&gt;2.删除x和y之间的边，保证此边之前存在&lt;/p&gt;
+&lt;p&gt;3.询问x到y的路径异或最小值&lt;br&gt;</summary>
     
     
     
@@ -245,15 +242,15 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第八场</title>
+    <title>2019牛客多校第八场</title>
     <link href="https://tusikalanse.com/posts/b2a7eb14.html"/>
     <id>https://tusikalanse.com/posts/b2a7eb14.html</id>
     <published>2019-08-12T20:23:00.000Z</published>
     <updated>2019-08-12T20:23:00.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;A-All-one-Matices&quot;&gt;&lt;a href=&quot;#A-All-one-Matices&quot; class=&quot;headerlink&quot; title=&quot;A. All-one Matices&quot;&gt;&lt;/a&gt;A. All-one Matices&lt;/h2&gt;&lt;p&gt;solved at 01:58 (+2)&lt;/p&gt;
-&lt;p&gt;求一个 $n*m$ 的 $01$ 矩阵的极大全 $1$ 子矩阵数目&lt;br&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;A-All-one-Matices&quot;&gt;&lt;a href=&quot;#A-All-one-Matices&quot; class=&quot;headerlink&quot; title=&quot;A. All-one Matices&quot;&gt;&lt;/a&gt;A. All-one Matices&lt;/h2&gt;&lt;p&gt;solved at 01:58(+2)&lt;/p&gt;
+&lt;p&gt;求一个$n*m$的$01$矩阵的极大全$1$子矩阵数目&lt;br&gt;</summary>
     
     
     
@@ -265,16 +262,16 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第七场</title>
+    <title>2019牛客多校第七场</title>
     <link href="https://tusikalanse.com/posts/45ccc357.html"/>
     <id>https://tusikalanse.com/posts/45ccc357.html</id>
     <published>2019-08-08T04:34:00.000Z</published>
     <updated>2019-08-08T04:34:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;荣膺全场罚时最高，为什么今天和昨天都是 6 题，今天的我却没有了昨天的快乐呢。。。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;荣膺全场罚时最高，为什么今天和昨天都是6题，今天的我却没有了昨天的快乐呢。。。&lt;/p&gt;
 &lt;h2 id=&quot;A-String&quot;&gt;&lt;a href=&quot;#A-String&quot; class=&quot;headerlink&quot; title=&quot;A. String&quot;&gt;&lt;/a&gt;A. String&lt;/h2&gt;&lt;p&gt;solve at 00:28&lt;/p&gt;
-&lt;p&gt;给你一个 $01$ 字符串 $s$，你要将它分割成数量尽可能少的若干个串，使得每个串都是它的所有循环同构串中字典序最小的 $(1&amp;lt;=T&amp;lt;=300, 1&amp;lt;=|s|&amp;lt;=200)$&lt;br&gt;</summary>
+&lt;p&gt;给你一个$01$字符串$s$，你要将它分割成数量尽可能少的若干个串，使得每个串都是它的所有循环同构串中字典序最小的$(1&amp;lt;=T&amp;lt;=300, 1&amp;lt;=|s|&amp;lt;=200)$&lt;br&gt;</summary>
     
     
     
@@ -286,16 +283,16 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第六场</title>
+    <title>2019杭电多校第六场</title>
     <link href="https://tusikalanse.com/posts/1bf3e891.html"/>
     <id>https://tusikalanse.com/posts/1bf3e891.html</id>
     <published>2019-08-07T07:04:00.000Z</published>
     <updated>2019-08-07T07:04:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;过了 6 题，特别爽&lt;/p&gt;
+    <summary type="html">&lt;p&gt;过了6题，特别爽&lt;/p&gt;
 &lt;h2 id=&quot;1002-Nonsense-Time&quot;&gt;&lt;a href=&quot;#1002-Nonsense-Time&quot; class=&quot;headerlink&quot; title=&quot;1002. Nonsense Time&quot;&gt;&lt;/a&gt;1002. Nonsense Time&lt;/h2&gt;&lt;p&gt;solved at 02:55&lt;/p&gt;
-&lt;p&gt;有一个 $1-n$ 的排列 $p$, 一开始 $p$ 所有位置全部无效，每次给出一个数 $k_i$，意味着 $k_i$ 这个位置的数开始有效，每次使一个数有效就输出当前有效序列的 LIS 长度，$(1&amp;lt;=n&amp;lt;=5e4)$，保证数据是随机生成的&lt;br&gt;</summary>
+&lt;p&gt;有一个$1-n$的排列$p$, 一开始$p$所有位置全部无效，每次给出一个数$k_i$，意味着$k_i$这个位置的数开始有效，每次使一个数有效就输出当前有效序列的LIS长度，$(1&amp;lt;=n&amp;lt;=5e4)$，保证数据是随机生成的&lt;br&gt;</summary>
     
     
     
@@ -307,7 +304,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第五场</title>
+    <title>2019杭电多校第五场</title>
     <link href="https://tusikalanse.com/posts/7efda348.html"/>
     <id>https://tusikalanse.com/posts/7efda348.html</id>
     <published>2019-08-07T06:15:00.000Z</published>
@@ -315,7 +312,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1002-three-arrays&quot;&gt;&lt;a href=&quot;#1002-three-arrays&quot; class=&quot;headerlink&quot; title=&quot;1002. three arrays&quot;&gt;&lt;/a&gt;1002. three arrays&lt;/h2&gt;&lt;p&gt;upsloved&lt;/p&gt;
-&lt;p&gt;你有两个长为 $n$ 的序列 $a, b$，你可以任意打乱这两个序列，使得序列 $c$ 字典序最小 $(c_i = a_i\, xor\, b_i)$&lt;br&gt;</summary>
+&lt;p&gt;你有两个长为$n$的序列$a, b$，你可以任意打乱这两个序列，使得序列$c$字典序最小$(c_i = a_i\, xor\, b_i)$&lt;br&gt;</summary>
     
     
     
@@ -327,7 +324,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第六场</title>
+    <title>2019牛客多校第六场</title>
     <link href="https://tusikalanse.com/posts/97ccb4c8.html"/>
     <id>https://tusikalanse.com/posts/97ccb4c8.html</id>
     <published>2019-08-07T06:01:00.000Z</published>
@@ -348,15 +345,15 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第五场</title>
+    <title>2019牛客多校第五场</title>
     <link href="https://tusikalanse.com/posts/f2c2ff11.html"/>
     <id>https://tusikalanse.com/posts/f2c2ff11.html</id>
     <published>2019-08-02T06:15:00.000Z</published>
     <updated>2019-08-02T06:15:00.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;A-digits2&quot;&gt;&lt;a href=&quot;#A-digits2&quot; class=&quot;headerlink&quot; title=&quot;A. digits2&quot;&gt;&lt;/a&gt;A. digits2&lt;/h2&gt;&lt;p&gt;solved at 00:47 (+1)&lt;/p&gt;
-&lt;p&gt;签到题，将 $n$ 输出 $n$ 次即可，不知道队友在想什么。。。&lt;br&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;A-digits2&quot;&gt;&lt;a href=&quot;#A-digits2&quot; class=&quot;headerlink&quot; title=&quot;A. digits2&quot;&gt;&lt;/a&gt;A. digits2&lt;/h2&gt;&lt;p&gt;solved at 00:47(+1)&lt;/p&gt;
+&lt;p&gt;签到题，将$n$输出$n$次即可，不知道队友在想什么。。。&lt;br&gt;</summary>
     
     
     
@@ -368,15 +365,15 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第四场</title>
+    <title>2019杭电多校第四场</title>
     <link href="https://tusikalanse.com/posts/1163660f.html"/>
     <id>https://tusikalanse.com/posts/1163660f.html</id>
     <published>2019-07-31T05:59:00.000Z</published>
     <updated>2019-07-31T05:59:00.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1001-AND-Minimum-Spanning-Tree&quot;&gt;&lt;a href=&quot;#1001-AND-Minimum-Spanning-Tree&quot; class=&quot;headerlink&quot; title=&quot;1001. AND Minimum Spanning Tree&quot;&gt;&lt;/a&gt;1001. AND Minimum Spanning Tree&lt;/h2&gt;&lt;p&gt;solved at 00:39 (+1)&lt;/p&gt;
-&lt;p&gt;有一张 $n$ 个点的完全图，点编号是 $1$ 到 $n$，边权是点编号的 bitwise and，求最小生成树，输出字典序最小的&lt;br&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1001-AND-Minimum-Spanning-Tree&quot;&gt;&lt;a href=&quot;#1001-AND-Minimum-Spanning-Tree&quot; class=&quot;headerlink&quot; title=&quot;1001. AND Minimum Spanning Tree&quot;&gt;&lt;/a&gt;1001. AND Minimum Spanning Tree&lt;/h2&gt;&lt;p&gt;solved at 00:39(+1)&lt;/p&gt;
+&lt;p&gt;有一张$n$个点的完全图，点编号是$1$到$n$，边权是点编号的bitwise and，求最小生成树，输出字典序最小的&lt;br&gt;</summary>
     
     
     
@@ -388,7 +385,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第三场</title>
+    <title>2019杭电多校第三场</title>
     <link href="https://tusikalanse.com/posts/a64e7f6a.html"/>
     <id>https://tusikalanse.com/posts/a64e7f6a.html</id>
     <published>2019-07-30T06:15:00.000Z</published>
@@ -396,7 +393,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;1002-Blow-up-the-city&quot;&gt;&lt;a href=&quot;#1002-Blow-up-the-city&quot; class=&quot;headerlink&quot; title=&quot;1002. Blow up the city&quot;&gt;&lt;/a&gt;1002. Blow up the city&lt;/h2&gt;&lt;p&gt;upsloved&lt;/p&gt;
-&lt;p&gt;有一个 DAG，出度为 $0$ 的点是指挥中心，$q$ 次询问，每次给出两个点，这两个点存有关键物资，你可以炸掉一个点和它的邻接边，使得这两个点中任意一个点的物资不能到达指挥中心（有一个点不能到达任意一个指挥中心即可），求方案数，询问独立&lt;br&gt;</summary>
+&lt;p&gt;有一个DAG，出度为$0$的点是指挥中心，$q$次询问，每次给出两个点，这两个点存有关键物资，你可以炸掉一个点和它的邻接边，使得这两个点中任意一个点的物资不能到达指挥中心（有一个点不能到达任意一个指挥中心即可），求方案数，询问独立&lt;br&gt;</summary>
     
     
     
@@ -408,7 +405,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第四场</title>
+    <title>2019牛客多校第四场</title>
     <link href="https://tusikalanse.com/posts/9d5c3a56.html"/>
     <id>https://tusikalanse.com/posts/9d5c3a56.html</id>
     <published>2019-07-27T06:02:00.000Z</published>
@@ -416,8 +413,8 @@
     
     
     <summary type="html">&lt;p&gt;目前为止打得最爽的一场多校&lt;/p&gt;
-&lt;h2 id=&quot;A-meeting&quot;&gt;&lt;a href=&quot;#A-meeting&quot; class=&quot;headerlink&quot; title=&quot;A. meeting&quot;&gt;&lt;/a&gt;A. meeting&lt;/h2&gt;&lt;p&gt;solved at 00:58 (+1)&lt;/p&gt;
-&lt;p&gt;树上有 $k$ 个关键点，让你选择一个树上的点，使得这些关键点到这个点的最大距离最小&lt;br&gt;</summary>
+&lt;h2 id=&quot;A-meeting&quot;&gt;&lt;a href=&quot;#A-meeting&quot; class=&quot;headerlink&quot; title=&quot;A. meeting&quot;&gt;&lt;/a&gt;A. meeting&lt;/h2&gt;&lt;p&gt;solved at 00:58(+1)&lt;/p&gt;
+&lt;p&gt;树上有$k$个关键点，让你选择一个树上的点，使得这些关键点到这个点的最大距离最小&lt;br&gt;</summary>
     
     
     
@@ -429,7 +426,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第三场</title>
+    <title>2019牛客多校第三场</title>
     <link href="https://tusikalanse.com/posts/2a712333.html"/>
     <id>https://tusikalanse.com/posts/2a712333.html</id>
     <published>2019-07-25T06:01:00.000Z</published>
@@ -437,7 +434,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;A-Graph-Games&quot;&gt;&lt;a href=&quot;#A-Graph-Games&quot; class=&quot;headerlink&quot; title=&quot;A. Graph Games&quot;&gt;&lt;/a&gt;A. Graph Games&lt;/h2&gt;&lt;p&gt;upsolved&lt;/p&gt;
-&lt;p&gt;$n$ 个点，$m$ 条边的图 $(1&amp;lt;=n&amp;lt;=1e5,1&amp;lt;=m,q&amp;lt;=2e5)$，$q$ 次操作，操作有两种，一种是翻转区间内边的状态，第二种是询问两个点的邻接点集是否一致&lt;br&gt;</summary>
+&lt;p&gt;$n$个点，$m$条边的图$(1&amp;lt;=n&amp;lt;=1e5,1&amp;lt;=m,q&amp;lt;=2e5)$，$q$次操作，操作有两种，一种是翻转区间内边的状态，第二种是询问两个点的邻接点集是否一致&lt;br&gt;</summary>
     
     
     
@@ -449,7 +446,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第二场</title>
+    <title>2019杭电多校第二场</title>
     <link href="https://tusikalanse.com/posts/eb50dc38.html"/>
     <id>https://tusikalanse.com/posts/eb50dc38.html</id>
     <published>2019-07-25T05:53:00.000Z</published>
@@ -470,7 +467,7 @@
   </entry>
   
   <entry>
-    <title>2019 杭电多校第一场</title>
+    <title>2019杭电多校第一场</title>
     <link href="https://tusikalanse.com/posts/db4630e0.html"/>
     <id>https://tusikalanse.com/posts/db4630e0.html</id>
     <published>2019-07-23T04:40:00.000Z</published>
@@ -479,7 +476,7 @@
     
     <summary type="html">&lt;p&gt;有点自闭，本来应该昨天写的，拖到了今天&lt;/p&gt;
 &lt;h2 id=&quot;1001-Blank&quot;&gt;&lt;a href=&quot;#1001-Blank&quot; class=&quot;headerlink&quot; title=&quot;1001. Blank&quot;&gt;&lt;/a&gt;1001. Blank&lt;/h2&gt;&lt;p&gt;upsolved&lt;/p&gt;
-&lt;p&gt;题意是在 $n$ 个位置上填数，只能填 $0,1,2,3$ 这四种，然后有 $m$ 个限制条件，限制的是区间不同数的个数，求填数方案数 $1&amp;lt;=n,m&amp;lt;=100$&lt;br&gt;</summary>
+&lt;p&gt;题意是在$n$个位置上填数，只能填$0,1,2,3$这四种，然后有$m$个限制条件，限制的是区间不同数的个数，求填数方案数$1&amp;lt;=n,m&amp;lt;=100$&lt;br&gt;</summary>
     
     
     
@@ -491,7 +488,7 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第二场</title>
+    <title>2019牛客多校第二场</title>
     <link href="https://tusikalanse.com/posts/676f8061.html"/>
     <id>https://tusikalanse.com/posts/676f8061.html</id>
     <published>2019-07-20T06:54:00.000Z</published>
@@ -499,7 +496,7 @@
     
     
     <summary type="html">&lt;h2 id=&quot;A-Eddy-Walker&quot;&gt;&lt;a href=&quot;#A-Eddy-Walker&quot; class=&quot;headerlink&quot; title=&quot;A. Eddy Walker&quot;&gt;&lt;/a&gt;A. Eddy Walker&lt;/h2&gt;&lt;p&gt;upsloved&lt;/p&gt;
-&lt;p&gt;有一个长为 $n$ 的环，一开始位于 $0$，每次随机向前或者向后走，求最后一个走到 $m$ 的概率&lt;br&gt;</summary>
+&lt;p&gt;有一个长为$n$的环，一开始位于$0$，每次随机向前或者向后走，求最后一个走到$m$的概率&lt;br&gt;</summary>
     
     
     
@@ -511,17 +508,17 @@
   </entry>
   
   <entry>
-    <title>2019 牛客多校第一场</title>
+    <title>2019牛客多校第一场</title>
     <link href="https://tusikalanse.com/posts/57796cb9.html"/>
     <id>https://tusikalanse.com/posts/57796cb9.html</id>
     <published>2019-07-18T06:12:00.000Z</published>
     <updated>2019-07-18T06:12:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;D 还没补，G 看起来做不了&lt;/p&gt;
+    <summary type="html">&lt;p&gt;D还没补，G看起来做不了&lt;/p&gt;
 &lt;h2 id=&quot;A-Equivalent-Prefixes&quot;&gt;&lt;a href=&quot;#A-Equivalent-Prefixes&quot; class=&quot;headerlink&quot; title=&quot;A Equivalent Prefixes&quot;&gt;&lt;/a&gt;A Equivalent Prefixes&lt;/h2&gt;&lt;p&gt;solved at 00:21&lt;/p&gt;
-&lt;p&gt;题意是有两个长为 n 的数组 a，b，每个数组都是 1 到 n 的一个排列&lt;/p&gt;
-&lt;p&gt;询问一个最长的前缀 p，使得对于任意的 $1 &amp;lt;= l &amp;lt;= r &amp;lt;= q$，都有 $min\_element (a, l, r) = min\_element (b, l, r)$（最小值的位置对应相等，而非值相等）&lt;br&gt;</summary>
+&lt;p&gt;题意是有两个长为n的数组a，b，每个数组都是1到n的一个排列&lt;/p&gt;
+&lt;p&gt;询问一个最长的前缀p，使得对于任意的$1 &amp;lt;= l &amp;lt;= r &amp;lt;= q$，都有$min\_element(a, l, r) = min\_element(b, l, r)$（最小值的位置对应相等，而非值相等）&lt;br&gt;</summary>
     
     
     
@@ -533,18 +530,18 @@
   </entry>
   
   <entry>
-    <title>区间加值，区间 gcd, 牛客 949H</title>
+    <title>区间加值，区间gcd, 牛客949H</title>
     <link href="https://tusikalanse.com/posts/595261ca.html"/>
     <id>https://tusikalanse.com/posts/595261ca.html</id>
     <published>2019-07-13T04:17:00.000Z</published>
     <updated>2019-07-13T04:17:00.000Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;牛客小白月赛-16H-小阳的贝壳&quot;&gt;&lt;a href=&quot;#牛客小白月赛-16H-小阳的贝壳&quot; class=&quot;headerlink&quot; title=&quot;牛客小白月赛 16H　小阳的贝壳&quot;&gt;&lt;/a&gt;牛客小白月赛 16H　小阳的贝壳&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://ac.nowcoder.com/acm/contest/949/H&quot;&gt;题目链接&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;牛客小白月赛16H-小阳的贝壳&quot;&gt;&lt;a href=&quot;#牛客小白月赛16H-小阳的贝壳&quot; class=&quot;headerlink&quot; title=&quot;牛客小白月赛16H　小阳的贝壳&quot;&gt;&lt;/a&gt;牛客小白月赛16H　小阳的贝壳&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://ac.nowcoder.com/acm/contest/949/H&quot;&gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;题意&quot;&gt;&lt;a href=&quot;#题意&quot; class=&quot;headerlink&quot; title=&quot;题意&quot;&gt;&lt;/a&gt;题意&lt;/h2&gt;&lt;p&gt;维护一个数组，支持以下操作:&lt;/p&gt;
 &lt;p&gt;1: 区间加值&lt;/p&gt;
 &lt;p&gt;2: 询问区间相邻数差的绝对值的最大值&lt;/p&gt;
-&lt;p&gt;3: 询问区间 gcd&lt;br&gt;</summary>
+&lt;p&gt;3: 询问区间gcd&lt;br&gt;</summary>
     
     
     
@@ -563,21 +560,21 @@
     <updated>2019-03-07T06:24:00.000Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;Let’s define the Eulerian traversal of a tree (a connected undirected graph without cycles) as follows: consider a depth-first search algorithm which traverses vertices of the tree and enumerates them in the order of visiting (only the first visit of each vertex counts). This function starts from the vertex number $1$ and then recursively runs from all vertices which are connected with an edge with the current vertex and are not yet visited in increasing numbers order. Formally, you can describe this function using the following pseudocode:&lt;br&gt;next_id = 1id = array of length n filled with -1visited = array of length n filled with falsefunction dfs (v):    visited [v] = true    id [v] = next_id    next_id += 1    for to in neighbors of v in increasing order:        if not visited [to]:            dfs (to) You are given a weighted tree, the vertices of which were enumerated with integers from $1$ to $n$ using the algorithm described above.&lt;br&gt;A leaf is a vertex of the tree which is connected with only one other vertex. In the tree given to you, the vertex $1$ is not a leaf. The distance between two vertices in the tree is the sum of weights of the edges on the simple path between them.&lt;br&gt;You have to answer $q$ queries of the following type: given integers $v$, $l$ and $r$, find the shortest distance from vertex $v$ to one of the leaves with indices from $l$ to $r$ inclusive.&lt;br&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;Let’s define the Eulerian traversal of a tree (a connected undirected graph without cycles) as follows: consider a depth-first search algorithm which traverses vertices of the tree and enumerates them in the order of visiting (only the first visit of each vertex counts). This function starts from the vertex number $1$ and then recursively runs from all vertices which are connected with an edge with the current vertex and are not yet visited in increasing numbers order. Formally, you can describe this function using the following pseudocode:&lt;br&gt;next_id = 1id = array of length n filled with -1visited = array of length n filled with falsefunction dfs(v):    visited[v] = true    id[v] = next_id    next_id += 1    for to in neighbors of v in increasing order:        if not visited[to]:            dfs(to)You are given a weighted tree, the vertices of which were enumerated with integers from $1$ to $n$ using the algorithm described above.&lt;br&gt;A leaf is a vertex of the tree which is connected with only one other vertex. In the tree given to you, the vertex $1$ is not a leaf. The distance between two vertices in the tree is the sum of weights of the edges on the simple path between them.&lt;br&gt;You have to answer $q$ queries of the following type: given integers $v$, $l$ and $r$, find the shortest distance from vertex $v$ to one of the leaves with indices from $l$ to $r$ inclusive.&lt;br&gt;</summary>
     
     
     
     <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
     <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
-    <title>Codeforces 1111D Destroy the Colony 退背包 + 组合数</title>
+    <title>Codeforces 1111D Destroy the Colony 退背包+组合数</title>
     <link href="https://tusikalanse.com/posts/33e9b2ae.html"/>
     <id>https://tusikalanse.com/posts/33e9b2ae.html</id>
     <published>2019-02-26T06:04:00.000Z</published>
@@ -617,14 +614,14 @@
   </entry>
   
   <entry>
-    <title>Codeforces 1108E2  Array and Segments (Hard version) 差分，暴力</title>
+    <title>Codeforces 1108E2  Array and Segments (Hard version) 差分, 暴力</title>
     <link href="https://tusikalanse.com/posts/e382afad.html"/>
     <id>https://tusikalanse.com/posts/e382afad.html</id>
     <published>2019-02-02T06:40:00.000Z</published>
     <updated>2019-02-02T06:40:00.000Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;The only difference between easy and hard versions is a number of elements in the array.&lt;br&gt;You are given an array $a$ consisting of $n$ integers. The value of the $i$-th element of the array is $a_i$.&lt;br&gt;You are also given a set of $m$ segments. The $j$-th segment is $[l_j; r_j]$, where $1 \le l_j \le r_j \le n$.&lt;br&gt;You can choose some subset of the given set of segments and decrease values on each of the chosen segments by one (independently). For example, if the initial array $a = [0, 0, 0, 0, 0]$ and the given segments are $[1; 3]$ and $[2; 4]$ then you can choose both of them and the array will become $b = [-1, -2, -2, -1, 0]$.&lt;br&gt;You have to choose some subset of the given segments (each segment can be chosen at most once) in such a way that if you apply this subset of segments to the array $a$ and obtain the array $b$ then the value $\max\limits_{i=1}^{n} b_i - \min\limits_{i=1}^{n} b_i$ will be maximum possible.&lt;br&gt;Note that you can choose the empty set.&lt;br&gt;If there are multiple answers, you can print any.&lt;br&gt;If you are Python programmer, consider using PyPy instead of Python when you submit your code.&lt;br&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;The only difference between easy and hard versions is a number of elements in the array.&lt;br&gt;You are given an array $a$ consisting of $n$ integers. The value of the $i$-th element of the array is $a_i$.&lt;br&gt;You are also given a set of $m$ segments. The $j$-th segment is $[l_j; r_j]$, where $1 \le l_j \le r_j \le n$.&lt;br&gt;You can choose some subset of the given set of segments and decrease values on each of the chosen segments by one (independently). For example, if the initial array $a = [0, 0, 0, 0, 0]$ and the given segments are $[1; 3]$ and $[2; 4]$ then you can choose both of them and the array will become $b = [-1, -2, -2, -1, 0]$.&lt;br&gt;You have to choose some subset of the given segments (each segment can be chosen at most once) in such a way that if you apply this subset of segments to the array $a$ and obtain the array $b$ then the value $\max\limits_{i=1}^{n}b_i - \min\limits_{i=1}^{n}b_i$ will be maximum possible.&lt;br&gt;Note that you can choose the empty set.&lt;br&gt;If there are multiple answers, you can print any.&lt;br&gt;If you are Python programmer, consider using PyPy instead of Python when you submit your code.&lt;br&gt;</summary>
     
     
     
@@ -643,23 +640,23 @@
     <updated>2019-02-01T19:01:00.000Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;Vasya got really tired of these credits (from problem F) and now wants to earn the money himself! He decided to make a contest to gain a profit.&lt;br&gt;Vasya has $n$ problems to choose from. They are numbered from $1$ to $n$. The difficulty of the $i$-th problem is $d_i$. Moreover, the problems are given in the increasing order by their difficulties. The difficulties of all tasks are pairwise distinct. In order to add the $i$-th problem to the contest you need to pay $c_i$ burles to its author. For each problem in the contest Vasya gets $a$ burles.&lt;br&gt;In order to create a contest he needs to choose a consecutive subsegment of tasks.&lt;br&gt;So the total earnings for the contest are calculated as follows:&lt;br&gt;  if Vasya takes problem $i$ to the contest, he needs to pay $c_i$ to its author;  for each problem in the contest Vasya gets $a$ burles;  let $gap (l, r) = \max\limits_{l \le i &amp;lt; r} (d_{i + 1} - d_i)^2$. If Vasya takes all the tasks with indices from $l$ to $r$ to the contest, he also needs to pay $gap (l, r)$. If $l = r$ then $gap (l, r) = 0$. Calculate the maximum profit that Vasya can earn by taking a consecutive segment of tasks.&lt;br&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h3&gt;&lt;p&gt;Vasya got really tired of these credits (from problem F) and now wants to earn the money himself! He decided to make a contest to gain a profit.&lt;br&gt;Vasya has $n$ problems to choose from. They are numbered from $1$ to $n$. The difficulty of the $i$-th problem is $d_i$. Moreover, the problems are given in the increasing order by their difficulties. The difficulties of all tasks are pairwise distinct. In order to add the $i$-th problem to the contest you need to pay $c_i$ burles to its author. For each problem in the contest Vasya gets $a$ burles.&lt;br&gt;In order to create a contest he needs to choose a consecutive subsegment of tasks.&lt;br&gt;So the total earnings for the contest are calculated as follows:&lt;br&gt;  if Vasya takes problem $i$ to the contest, he needs to pay $c_i$ to its author;  for each problem in the contest Vasya gets $a$ burles;  let $gap(l, r) = \max\limits_{l \le i &amp;lt; r} (d_{i + 1} - d_i)^2$. If Vasya takes all the tasks with indices from $l$ to $r$ to the contest, he also needs to pay $gap(l, r)$. If $l = r$ then $gap(l, r) = 0$. Calculate the maximum profit that Vasya can earn by taking a consecutive segment of tasks.&lt;br&gt;</summary>
     
     
     
     <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
     <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     <category term="单调栈" scheme="https://tusikalanse.com/tags/%E5%8D%95%E8%B0%83%E6%A0%88/"/>
     
   </entry>
   
   <entry>
-    <title>Codeforces 1107E Vasya and Binary String 记忆化 dp</title>
+    <title>Codeforces 1107E Vasya and Binary String 记忆化dp</title>
     <link href="https://tusikalanse.com/posts/32a1b255.html"/>
     <id>https://tusikalanse.com/posts/32a1b255.html</id>
     <published>2019-02-01T18:22:00.000Z</published>
@@ -678,14 +675,14 @@
   </entry>
   
   <entry>
-    <title>codeforces 1106 题解</title>
+    <title>codeforces 1106题解</title>
     <link href="https://tusikalanse.com/posts/cac007ef.html"/>
     <id>https://tusikalanse.com/posts/cac007ef.html</id>
     <published>2019-02-01T01:05:00.000Z</published>
     <updated>2019-02-01T01:05:00.000Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;A-Lunar-New-Year-and-Cross-Counting&quot;&gt;&lt;a href=&quot;#A-Lunar-New-Year-and-Cross-Counting&quot; class=&quot;headerlink&quot; title=&quot;A. Lunar New Year and Cross Counting&quot;&gt;&lt;/a&gt;A. Lunar New Year and Cross Counting&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h2&gt;&lt;p&gt;Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.&lt;br&gt;This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without quotes). The element in the $i$-th row and the $j$-th column $(i, j)$ is defined as $M (i, j)$, where $1 \leq i, j \leq n$. We define a cross appearing in the $i$-th row and the $j$-th column ($1 &amp;lt; i, j &amp;lt; n$) if and only if $M (i, j) = M (i - 1, j - 1) = M (i - 1, j + 1) = M (i + 1, j - 1) = M (i + 1, j + 1) = $ ‘X’.&lt;br&gt;The following figure illustrates a cross appearing at position $(2, 2)$ in a $3 \times 3$ matrix.&lt;br&gt; X.X.X.X.X Your task is to find out the number of crosses in the given matrix $M$. Two crosses are different if and only if they appear in different rows or columns.&lt;br&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;A-Lunar-New-Year-and-Cross-Counting&quot;&gt;&lt;a href=&quot;#A-Lunar-New-Year-and-Cross-Counting&quot; class=&quot;headerlink&quot; title=&quot;A. Lunar New Year and Cross Counting&quot;&gt;&lt;/a&gt;A. Lunar New Year and Cross Counting&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot; class=&quot;headerlink&quot; title=&quot;Description:&quot;&gt;&lt;/a&gt;Description:&lt;/h2&gt;&lt;p&gt;Lunar New Year is approaching, and you bought a matrix with lots of “crosses”.&lt;br&gt;This matrix $M$ of size $n \times n$ contains only ‘X’ and ‘.’ (without quotes). The element in the $i$-th row and the $j$-th column $(i, j)$ is defined as $M(i, j)$, where $1 \leq i, j \leq n$. We define a cross appearing in the $i$-th row and the $j$-th column ($1 &amp;lt; i, j &amp;lt; n$) if and only if $M(i, j) = M(i - 1, j - 1) = M(i - 1, j + 1) = M(i + 1, j - 1) = M(i + 1, j + 1) = $ ‘X’.&lt;br&gt;The following figure illustrates a cross appearing at position $(2, 2)$ in a $3 \times 3$ matrix.&lt;br&gt; X.X.X.X.X Your task is to find out the number of crosses in the given matrix $M$. Two crosses are different if and only if they appear in different rows or columns.&lt;br&gt;</summary>
     
     
     
@@ -697,23 +694,23 @@
   </entry>
   
   <entry>
-    <title>线段树优化建图 (cf787d, 2019Wannafly Winter Camp Day7 Div1 E)</title>
+    <title>线段树优化建图(cf787d, 2019Wannafly Winter Camp Day7 Div1 E)</title>
     <link href="https://tusikalanse.com/posts/cb96abfa.html"/>
     <id>https://tusikalanse.com/posts/cb96abfa.html</id>
     <published>2019-01-30T05:51:00.000Z</published>
     <updated>2019-01-30T05:51:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;线段树优化建图，用于区间到区间建边时降低空间复杂度&lt;br&gt;建立两颗线段树，一颗 in, 代表进入这个区间，一颗 out, 代表从这个区间出去&lt;br&gt;in 树从父亲向儿子建边，代表宏观进入整个区间，不向下寻找&lt;br&gt;out 树从儿子向父亲建边，代表出去&lt;br&gt;in 树向 out 树对应点建边，代表从这个点进去可以从它出去&lt;br&gt;建真正的边时：&lt;br&gt;1: 单点向单点: out 树对应点向 in 树对应点建边&lt;br&gt;2: 单点向区间: out 树对应点向 in 树对应区间建边&lt;br&gt;3: 区间向单点: out 树对应区间向 in 树对应点建边&lt;br&gt;4: 区间向区间: out 树区间对新点 P 建边，P 向 in 树对应点建边&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;线段树优化建图，用于区间到区间建边时降低空间复杂度&lt;br&gt;建立两颗线段树，一颗in, 代表进入这个区间，一颗out,代表从这个区间出去&lt;br&gt;in树从父亲向儿子建边，代表宏观进入整个区间，不向下寻找&lt;br&gt;out树从儿子向父亲建边，代表出去&lt;br&gt;in树向out树对应点建边，代表从这个点进去可以从它出去&lt;br&gt;建真正的边时：&lt;br&gt;1: 单点向单点: out树对应点向in树对应点建边&lt;br&gt;2: 单点向区间: out树对应点向in树对应区间建边&lt;br&gt;3: 区间向单点: out树对应区间向in树对应点建边&lt;br&gt;4: 区间向区间: out树区间对新点P建边，P向in树对应点建边&lt;br&gt;</summary>
     
     
     
     <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
     <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="数据结构" scheme="https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
