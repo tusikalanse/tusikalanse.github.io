@@ -9,30 +9,30 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/posts/5118b39d.html</loc>
-    
-    <lastmod>2021-09-26</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://tusikalanse.com/about/index.html</loc>
     
-    <lastmod>2021-09-25</lastmod>
+    <lastmod>2021-09-27</lastmod>
     
   </url>
   
   <url>
     <loc>https://tusikalanse.com/tags/index.html</loc>
     
-    <lastmod>2021-09-23</lastmod>
+    <lastmod>2021-09-27</lastmod>
     
   </url>
   
   <url>
     <loc>https://tusikalanse.com/categories/index.html</loc>
     
-    <lastmod>2021-09-23</lastmod>
+    <lastmod>2021-09-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tusikalanse.com/posts/5118b39d.html</loc>
+    
+    <lastmod>2021-09-27</lastmod>
     
   </url>
   
@@ -284,13 +284,6 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/tags/dp/</loc>
-    <lastmod>2021-09-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
@@ -319,7 +312,7 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://tusikalanse.com/tags/dp/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,6 +326,13 @@
   </url>
   
   <url>
+    <loc>https://tusikalanse.com/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2021-09-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
@@ -340,14 +340,14 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
+    <loc>https://tusikalanse.com/tags/docker/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/tags/docker/</loc>
+    <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -363,14 +363,14 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
+    <loc>https://tusikalanse.com/categories/linux/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/categories/linux/</loc>
+    <loc>https://tusikalanse.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
     <lastmod>2021-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

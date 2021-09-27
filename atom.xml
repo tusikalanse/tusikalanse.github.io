@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-09-26T15:20:24.703Z</updated>
+  <updated>2021-09-27T18:21:29.137Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://tusikalanse.com/posts/5118b39d.html"/>
     <id>https://tusikalanse.com/posts/5118b39d.html</id>
     <published>2020-10-13T04:10:00.000Z</published>
-    <updated>2021-09-26T15:20:24.703Z</updated>
+    <updated>2021-09-27T18:21:29.137Z</updated>
     
     
     <summary type="html">&lt;p&gt;用于解决需要多个 GCC 版本的场景，可以自定义各版本 GCC 的名称&lt;br&gt;</summary>
