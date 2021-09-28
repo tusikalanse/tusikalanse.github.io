@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>https://tusikalanse.com/categories/index.html</loc>
+    
+    <lastmod>2021-09-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tusikalanse.com/about/index.html</loc>
     
     <lastmod>2021-09-27</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://tusikalanse.com/tags/index.html</loc>
-    
-    <lastmod>2021-09-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tusikalanse.com/categories/index.html</loc>
     
     <lastmod>2021-09-27</lastmod>
     
@@ -277,6 +277,13 @@
 
   
   <url>
+    <loc>https://tusikalanse.com/tags/codeforces/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
@@ -285,34 +292,6 @@
   
   <url>
     <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tusikalanse.com/tags/codeforces/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -340,7 +319,28 @@
   </url>
   
   <url>
+    <loc>https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tusikalanse.com/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
