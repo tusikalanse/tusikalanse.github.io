@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/about/index.html</loc>
-    
-    <lastmod>2021-09-27</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://tusikalanse.com/tags/index.html</loc>
     
     <lastmod>2021-09-27</lastmod>
@@ -24,6 +17,13 @@
   
   <url>
     <loc>https://tusikalanse.com/categories/index.html</loc>
+    
+    <lastmod>2021-09-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tusikalanse.com/about/index.html</loc>
     
     <lastmod>2021-09-27</lastmod>
     
@@ -277,6 +277,13 @@
 
   
   <url>
+    <loc>https://tusikalanse.com/tags/docker/</loc>
+    <lastmod>2021-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tusikalanse.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2021-10-01</lastmod>
     <changefreq>daily</changefreq>
@@ -319,13 +326,6 @@
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/tags/docker/</loc>
-    <lastmod>2021-10-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tusikalanse.com/tags/dp/</loc>
     <lastmod>2021-10-01</lastmod>
     <changefreq>daily</changefreq>
@@ -356,14 +356,14 @@
 
   
   <url>
-    <loc>https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://tusikalanse.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
     <lastmod>2021-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://tusikalanse.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
+    <loc>https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
