@@ -53,6 +53,8 @@ NexT.boot.refresh = function() {
   NexT.utils.registerPostReward();
   NexT.utils.wrapTableWithBox();
   NexT.utils.registerVideoIframe();
+
+  codeUnfold();
 };
 
 NexT.boot.motion = function() {
