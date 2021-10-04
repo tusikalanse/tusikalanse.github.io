@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-10-04T17:03:54.861Z</updated>
+  <updated>2021-10-04T17:54:32.075Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 使用 hexo-pangu-spacing 的坑</title>
+    <link href="https://tusikalanse.com/posts/a32bf05f.html"/>
+    <id>https://tusikalanse.com/posts/a32bf05f.html</id>
+    <published>2021-10-04T17:54:09.000Z</published>
+    <updated>2021-10-04T17:54:32.075Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-使用-hexo-pangu-spacing-的坑&quot;&gt;hexo 使用 hexo-pangu-spacing 的坑&lt;/h1&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://tusikalanse.com/categories/hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>CentOS 多版本 GCC 共存</title>
@@ -418,28 +442,6 @@
     
     
     <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019牛客多校第四场</title>
-    <link href="https://tusikalanse.com/posts/9d5c3a56.html"/>
-    <id>https://tusikalanse.com/posts/9d5c3a56.html</id>
-    <published>2019-07-27T06:02:00.000Z</published>
-    <updated>2019-07-27T06:02:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;目前为止打得最爽的一场多校&lt;/p&gt;
-&lt;h2 id=&quot;a.-meeting&quot;&gt;A. meeting&lt;/h2&gt;
-&lt;p&gt;solved at 00:58(+1)&lt;/p&gt;
-&lt;p&gt;树上有&lt;span class=&quot;math inline&quot;&gt;\(k\)&lt;/span&gt;个关键点，让你选择一个树上的点，使得这些关键点到这个点的最大距离最小</summary>
-    
-    
-    
-    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
     
   </entry>
   
