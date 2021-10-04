@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-10-04T17:54:32.075Z</updated>
+  <updated>2021-10-04T17:56:49.826Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="https://tusikalanse.com/posts/a32bf05f.html"/>
     <id>https://tusikalanse.com/posts/a32bf05f.html</id>
     <published>2021-10-04T17:54:09.000Z</published>
-    <updated>2021-10-04T17:54:32.075Z</updated>
+    <updated>2021-10-04T17:56:49.826Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h1 id=&quot;hexo-使用-hexo-pangu-spacing-的坑&quot;&gt;hexo 使用 hexo-pangu-spacing 的坑&lt;/h1&gt;
-&lt;h1</summary>
-        
-      
+&lt;h1 id=&quot;tldr&quot;&gt;TLDR&lt;/h1&gt;
+&lt;p&gt;不要使用&lt;code&gt;hexo-pangu-spacing&lt;/code&gt;，可以由主题配置文件打开pangu&lt;/p&gt;
+&lt;h1 id=&quot;发现&quot;&gt;发现&lt;/h1&gt;
+&lt;p&gt;这个坑是在写关于界面的时候发现的，当时想使用markdown中的&lt;del&gt;删除线&lt;/del&gt;，然后发现发布的时候有一半波浪线变成了中文，让我深感疑惑</summary>
     
     
     
