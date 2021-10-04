@@ -101,7 +101,7 @@
     
     
     <summary type="html">&lt;p&gt;这次终于不是苟上的首页了&lt;/p&gt;
-&lt;h2 id=&quot;valentines-day&quot;&gt;1003. Valentine’s Day&lt;/h2&gt;
+&lt;h2 id=&quot;valentines-day&quot;&gt;1003. Valentine&#39;s Day&lt;/h2&gt;
 &lt;p&gt;solved at 01:02&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;个物品,每个物品有&lt;span class=&quot;math inline&quot;&gt;\(p_i\)&lt;/span&gt;的概率使你快乐,每个物品是否让你快乐是独立事件,你要选择一个子集,使得你快乐次数恰好为一的概率最大</summary>
     
@@ -189,7 +189,7 @@
     <summary type="html">&lt;p&gt;这场又变得快乐了起来，首页最后一名，很快乐&lt;/p&gt;
 &lt;h2 id=&quot;acesrc-and-good-numbers&quot;&gt;1003. Acesrc and Good Numbers&lt;/h2&gt;
 &lt;p&gt;solved at 02:48(+1)&lt;/p&gt;
-&lt;p&gt;不是很懂，队友oeis了9个数列打个表就过了…</summary>
+&lt;p&gt;不是很懂，队友oeis了9个数列打个表就过了...</summary>
     
     
     
