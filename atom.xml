@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-10-04T18:05:24.010Z</updated>
+  <updated>2021-10-23T09:53:46.409Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SnackDown2021 Online Qualifiers题解</title>
+    <link href="https://tusikalanse.com/posts/db6c28c7.html"/>
+    <id>https://tusikalanse.com/posts/db6c28c7.html</id>
+    <published>2021-10-23T09:42:42.000Z</published>
+    <updated>2021-10-23T09:53:46.409Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.codechef.com/SNCKQL21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;luckynum&quot;&gt;LUCKYNUM&lt;/h2&gt;
+&lt;p&gt;输入三个数, 若有7输出YES，否则输出NO&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="SnackDown" scheme="https://tusikalanse.com/tags/SnackDown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo 使用 hexo-pangu-spacing 的坑</title>
     <link href="https://tusikalanse.com/posts/a32bf05f.html"/>
     <id>https://tusikalanse.com/posts/a32bf05f.html</id>
     <published>2021-10-04T17:54:09.000Z</published>
-    <updated>2021-10-04T18:05:24.010Z</updated>
+    <updated>2021-10-23T09:44:05.093Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;tldr&quot;&gt;TLDR&lt;/h1&gt;
@@ -410,27 +431,6 @@
     <summary type="html">&lt;h2 id=&quot;and-minimum-spanning-tree&quot;&gt;1001. AND Minimum Spanning Tree&lt;/h2&gt;
 &lt;p&gt;solved at 00:39(+1)&lt;/p&gt;
 &lt;p&gt;有一张&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;个点的完全图，点编号是&lt;span class=&quot;math inline&quot;&gt;\(1\)&lt;/span&gt;到&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;，边权是点编号的bitwise and，求最小生成树，输出字典序最小的</summary>
-    
-    
-    
-    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019杭电多校第三场</title>
-    <link href="https://tusikalanse.com/posts/a64e7f6a.html"/>
-    <id>https://tusikalanse.com/posts/a64e7f6a.html</id>
-    <published>2019-07-30T06:15:00.000Z</published>
-    <updated>2019-07-30T06:15:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;blow-up-the-city&quot;&gt;1002. Blow up the city&lt;/h2&gt;
-&lt;p&gt;upsloved&lt;/p&gt;
-&lt;p&gt;有一个DAG，出度为&lt;span class=&quot;math inline&quot;&gt;\(0\)&lt;/span&gt;的点是指挥中心，&lt;span class=&quot;math inline&quot;&gt;\(q\)&lt;/span&gt;次询问，每次给出两个点，这两个点存有关键物资，你可以炸掉一个点和它的邻接边，使得这两个点中任意一个点的物资不能到达指挥中心（有一个点不能到达任意一个指挥中心即可），求方案数，询问独立</summary>
     
     
     
