@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-10-23T15:37:01.437Z</updated>
+  <updated>2021-10-23T16:33:21.000Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>SnackDown2021 Online Round1A题解</title>
     <link href="https://tusikalanse.com/posts/c3c2c796.html"/>
     <id>https://tusikalanse.com/posts/c3c2c796.html</id>
-    <published>2021-10-23T15:33:21.000Z</published>
-    <updated>2021-10-23T15:37:01.437Z</updated>
+    <published>2021-10-23T16:33:21.000Z</published>
+    <updated>2021-10-23T16:33:21.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.codechef.com/SNCK1A21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
@@ -307,9 +307,9 @@
     <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="codeforces" scheme="https://tusikalanse.com/tags/codeforces/"/>
-    
     <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="codeforces" scheme="https://tusikalanse.com/tags/codeforces/"/>
     
     <category term="线性基" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/"/>
     
