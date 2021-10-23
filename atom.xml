@@ -6,7 +6,7 @@
   <link href="https://tusikalanse.com/atom.xml" rel="self"/>
   
   <link href="https://tusikalanse.com/"/>
-  <updated>2021-10-23T09:53:46.409Z</updated>
+  <updated>2021-10-23T15:37:01.437Z</updated>
   <id>https://tusikalanse.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SnackDown2021 Online Round1A题解</title>
+    <link href="https://tusikalanse.com/posts/c3c2c796.html"/>
+    <id>https://tusikalanse.com/posts/c3c2c796.html</id>
+    <published>2021-10-23T15:33:21.000Z</published>
+    <updated>2021-10-23T15:37:01.437Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.codechef.com/SNCK1A21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;dancemoves&quot;&gt;DANCEMOVES&lt;/h2&gt;
+&lt;h3 id=&quot;题意&quot;&gt;题意&lt;/h3&gt;
+&lt;p&gt;给你起点和终点，每次可以往前走两步或者往后走一步，问最少多少步能从起点走到终点&lt;/p&gt;
+&lt;h3 id=&quot;题解&quot;&gt;题解&lt;/h3&gt;
+&lt;p&gt;分类讨论即可&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="SnackDown" scheme="https://tusikalanse.com/tags/SnackDown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SnackDown2021 Online Qualifiers题解</title>
     <link href="https://tusikalanse.com/posts/db6c28c7.html"/>
     <id>https://tusikalanse.com/posts/db6c28c7.html</id>
     <published>2021-10-23T09:42:42.000Z</published>
-    <updated>2021-10-23T09:53:46.409Z</updated>
+    <updated>2021-10-23T15:32:49.167Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.codechef.com/SNCKQL21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
@@ -283,9 +307,9 @@
     <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
     <category term="codeforces" scheme="https://tusikalanse.com/tags/codeforces/"/>
+    
+    <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
     <category term="线性基" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/"/>
     
@@ -417,27 +441,6 @@
     
     
     <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019杭电多校第四场</title>
-    <link href="https://tusikalanse.com/posts/1163660f.html"/>
-    <id>https://tusikalanse.com/posts/1163660f.html</id>
-    <published>2019-07-31T05:59:00.000Z</published>
-    <updated>2019-07-31T05:59:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;and-minimum-spanning-tree&quot;&gt;1001. AND Minimum Spanning Tree&lt;/h2&gt;
-&lt;p&gt;solved at 00:39(+1)&lt;/p&gt;
-&lt;p&gt;有一张&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;个点的完全图，点编号是&lt;span class=&quot;math inline&quot;&gt;\(1\)&lt;/span&gt;到&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;，边权是点编号的bitwise and，求最小生成树，输出字典序最小的</summary>
-    
-    
-    
-    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
     
   </entry>
   
