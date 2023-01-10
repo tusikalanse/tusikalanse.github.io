@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>图斯卡蓝瑟的小站 计算机个人学习记录</title>
+  <icon>https://tusikalanse.com/icon.png</icon>
+  <subtitle>陌生人，愿你在尘世获得幸福</subtitle>
+  <link href="https://tusikalanse.com/atom.xml" rel="self"/>
+  
+  <link href="https://tusikalanse.com/"/>
+  <updated>2021-12-30T03:43:41.940Z</updated>
+  <id>https://tusikalanse.com/</id>
+  
+  <author>
+    <name>tusikalanse</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS 多版本 GCC 共存</title>
+    <link href="https://tusikalanse.com/posts/5118b39d.html"/>
+    <id>https://tusikalanse.com/posts/5118b39d.html</id>
+    <published>2020-10-13T04:10:00.000Z</published>
+    <updated>2021-12-30T03:43:41.940Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;用于解决需要多个GCC版本的场景，可以自定义各版本GCC的名称</summary>
+    
+    
+    
+    <category term="linux" scheme="https://tusikalanse.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 使用 hexo-pangu-spacing 的坑</title>
+    <link href="https://tusikalanse.com/posts/a32bf05f.html"/>
+    <id>https://tusikalanse.com/posts/a32bf05f.html</id>
+    <published>2021-10-04T17:54:09.000Z</published>
+    <updated>2021-12-30T03:43:41.940Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;tldr&quot;&gt;TLDR&lt;/h1&gt;
+&lt;p&gt;不要使用&lt;code&gt;hexo-pangu-spacing&lt;/code&gt;，可以由主题配置文件打开pangu&lt;/p&gt;
+&lt;h1 id=&quot;发现&quot;&gt;发现&lt;/h1&gt;
+&lt;p&gt;这个坑是在写关于界面的时候发现的，当时想使用markdown中的&lt;del&gt;删除线&lt;/del&gt;，然后发现发布的时候有一半波浪线变成了中文，让我深感疑惑&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://tusikalanse.com/categories/hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SnackDown2021 Online Qualifiers题解</title>
+    <link href="https://tusikalanse.com/posts/db6c28c7.html"/>
+    <id>https://tusikalanse.com/posts/db6c28c7.html</id>
+    <published>2021-10-23T09:42:42.000Z</published>
+    <updated>2021-12-30T03:43:41.940Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.codechef.com/SNCKQL21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;luckynum&quot;&gt;LUCKYNUM&lt;/h2&gt;
+&lt;p&gt;输入三个数, 若有7输出YES，否则输出NO&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="SnackDown" scheme="https://tusikalanse.com/tags/SnackDown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SnackDown2021 Online Round1A题解</title>
+    <link href="https://tusikalanse.com/posts/c3c2c796.html"/>
+    <id>https://tusikalanse.com/posts/c3c2c796.html</id>
+    <published>2021-10-23T16:33:21.000Z</published>
+    <updated>2021-10-23T16:33:21.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.codechef.com/SNCK1A21&quot;&gt;比赛链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;dancemoves&quot;&gt;DANCEMOVES&lt;/h2&gt;
+&lt;h3 id=&quot;题意&quot;&gt;题意&lt;/h3&gt;
+&lt;p&gt;给你起点和终点，每次可以往前走两步或者往后走一步，问最少多少步能从起点走到终点&lt;/p&gt;
+&lt;h3 id=&quot;题解&quot;&gt;题解&lt;/h3&gt;
+&lt;p&gt;分类讨论即可&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="SnackDown" scheme="https://tusikalanse.com/tags/SnackDown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rootless Docker安装</title>
+    <link href="https://tusikalanse.com/posts/65ac3c57.html"/>
+    <id>https://tusikalanse.com/posts/65ac3c57.html</id>
+    <published>2021-09-21T09:45:15.000Z</published>
+    <updated>2021-09-21T09:45:15.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;脚本安装&quot;&gt;脚本安装&lt;/h2&gt;
+&lt;p&gt;rootless docker至少需要docker20.10版本，用脚本安装即可&lt;/p&gt;
+&lt;p&gt;安装脚本不能用root用户执行</summary>
+    
+    
+    
+    <category term="云原生" scheme="https://tusikalanse.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="docker" scheme="https://tusikalanse.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Duff&#39;s Device的C简易无栈协程实现</title>
+    <link href="https://tusikalanse.com/posts/fd9e80fc.html"/>
+    <id>https://tusikalanse.com/posts/fd9e80fc.html</id>
+    <published>2020-10-22T04:15:00.000Z</published>
+    <updated>2020-10-22T04:15:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;参考 Simon Tatham 的文章&lt;a
+href=&quot;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&quot;&gt;https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译文为&lt;a
+href=&quot;https://mthli.xyz/coroutines-in-c/&quot;&gt;https://mthli.xyz/coroutines-in-c/&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2017杭电多校第一场</title>
+    <link href="https://tusikalanse.com/posts/10f44c60.html"/>
+    <id>https://tusikalanse.com/posts/10f44c60.html</id>
+    <published>2019-10-14T04:40:00.000Z</published>
+    <updated>2019-10-14T04:40:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://codeforces.com/gym/102253&quot;&gt;Gym 链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;hdu6033-6044&lt;/p&gt;
+&lt;h2 id=&quot;a.-add-more-zero&quot;&gt;A. Add More Zero&lt;/h2&gt;
+&lt;p&gt;每次询问给定一个&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;，要求输出&lt;span
+class=&quot;math inline&quot;&gt;\(2^n-1\)&lt;/span&gt;的十进制位数减一</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第十场</title>
+    <link href="https://tusikalanse.com/posts/c167b3d6.html"/>
+    <id>https://tusikalanse.com/posts/c167b3d6.html</id>
+    <published>2019-08-21T07:19:00.000Z</published>
+    <updated>2019-08-21T07:19:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这次终于不是苟上的首页了&lt;/p&gt;
+&lt;h2 id=&quot;valentines-day&quot;&gt;1003. Valentine&#39;s Day&lt;/h2&gt;
+&lt;p&gt;solved at 01:02&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;个物品,每个物品有&lt;span
+class=&quot;math inline&quot;&gt;\(p_i\)&lt;/span&gt;的概率使你快乐,每个物品是否让你快乐是独立事件,你要选择一个子集,使得你快乐次数恰好为一的概率最大</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第九场</title>
+    <link href="https://tusikalanse.com/posts/44559612.html"/>
+    <id>https://tusikalanse.com/posts/44559612.html</id>
+    <published>2019-08-20T03:50:00.000Z</published>
+    <updated>2019-08-20T03:50:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;熟悉的后半场挂机节奏，又苟进首页了，很快乐&lt;/p&gt;
+&lt;p&gt;##1001. Rikka with Quicksort&lt;/p&gt;
+&lt;p&gt;upsolved&lt;/p&gt;
+&lt;p&gt;不是我做的,1e9调和级数分段打表</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第十场</title>
+    <link href="https://tusikalanse.com/posts/4d58ef8f.html"/>
+    <id>https://tusikalanse.com/posts/4d58ef8f.html</id>
+    <published>2019-08-17T06:26:00.000Z</published>
+    <updated>2019-08-17T06:26:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;a.-blackjack&quot;&gt;A. Blackjack&lt;/h2&gt;
+&lt;p&gt;upsolved&lt;/p&gt;
+&lt;p&gt;题目等价于询问有&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;个有权值&lt;span
+class=&quot;math inline&quot;&gt;\(x_i\)&lt;/span&gt;的物品的一个随机排列，设&lt;span
+class=&quot;math inline&quot;&gt;\(pos\)&lt;/span&gt;为第一个前缀权值和大于&lt;span
+class=&quot;math inline&quot;&gt;\(a\)&lt;/span&gt;的位置，求&lt;span
+class=&quot;math inline&quot;&gt;\(\sum \limits_{i = 1}^{pos}
+x_i&amp;lt;=b\)&lt;/span&gt;的概率&lt;span class=&quot;math inline&quot;&gt;\((1 &amp;lt;= n &amp;lt;=
+500, 1 &amp;lt;= a &amp;lt; b &amp;lt;= 500, \sum x_i&amp;gt;b)\)&lt;/span&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第九场</title>
+    <link href="https://tusikalanse.com/posts/c86aca4b.html"/>
+    <id>https://tusikalanse.com/posts/c86aca4b.html</id>
+    <published>2019-08-15T07:20:00.000Z</published>
+    <updated>2019-08-15T07:20:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;a.-the-power-of-fibonacci&quot;&gt;A. The power of Fibonacci&lt;/h2&gt;
+&lt;p&gt;upsolved&lt;/p&gt;
+&lt;p&gt;求斐波那契数列的&lt;span class=&quot;math inline&quot;&gt;\(m\)&lt;/span&gt;次方的前&lt;span
+class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;项的和模1e9的值</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第八场</title>
+    <link href="https://tusikalanse.com/posts/3e98b74d.html"/>
+    <id>https://tusikalanse.com/posts/3e98b74d.html</id>
+    <published>2019-08-15T06:34:00.000Z</published>
+    <updated>2019-08-15T06:34:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这场又变得快乐了起来，首页最后一名，很快乐&lt;/p&gt;
+&lt;h2 id=&quot;acesrc-and-good-numbers&quot;&gt;1003. Acesrc and Good Numbers&lt;/h2&gt;
+&lt;p&gt;solved at 02:48(+1)&lt;/p&gt;
+&lt;p&gt;不是很懂，队友oeis了9个数列打个表就过了...</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第七场</title>
+    <link href="https://tusikalanse.com/posts/c9f39f0e.html"/>
+    <id>https://tusikalanse.com/posts/c9f39f0e.html</id>
+    <published>2019-08-15T05:48:00.000Z</published>
+    <updated>2019-08-15T05:48:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;咕咕了好久&lt;/p&gt;
+&lt;p&gt;这场真实自闭&lt;/p&gt;
+&lt;h2 id=&quot;a-b-c&quot;&gt;1001. A + B = C&lt;/h2&gt;
+&lt;p&gt;solve at 03:40(+12)&lt;/p&gt;
+&lt;p&gt;给你A, B, C你要找到一种方案，在A, B, C后各自添加&lt;span
+class=&quot;math inline&quot;&gt;\([0, 1e6]\)&lt;/span&gt;个零，使得&lt;span
+class=&quot;math inline&quot;&gt;\(A+B=C\)&lt;/span&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Codeforces 938G 线段树分治 线性基 可撤销并查集</title>
+    <link href="https://tusikalanse.com/posts/3b737d07.html"/>
+    <id>https://tusikalanse.com/posts/3b737d07.html</id>
+    <published>2019-08-12T22:58:00.000Z</published>
+    <updated>2019-08-12T22:58:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;codeforces-938g-shortest-path-queries&quot;&gt;Codeforces 938G Shortest
+Path Queries&lt;/h1&gt;
+&lt;p&gt;一张连通图，三种操作&lt;/p&gt;
+&lt;p&gt;1.给x和y之间加上边权为d的边，保证不会产生重边&lt;/p&gt;
+&lt;p&gt;2.删除x和y之间的边，保证此边之前存在&lt;/p&gt;
+&lt;p&gt;3.询问x到y的路径异或最小值</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="线段树" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="codeforces" scheme="https://tusikalanse.com/tags/codeforces/"/>
+    
+    <category term="线性基" scheme="https://tusikalanse.com/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第八场</title>
+    <link href="https://tusikalanse.com/posts/b2a7eb14.html"/>
+    <id>https://tusikalanse.com/posts/b2a7eb14.html</id>
+    <published>2019-08-12T20:23:00.000Z</published>
+    <updated>2019-08-12T20:23:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;a.-all-one-matices&quot;&gt;A. All-one Matices&lt;/h2&gt;
+&lt;p&gt;solved at 01:58(+2)&lt;/p&gt;
+&lt;p&gt;求一个&lt;span class=&quot;math inline&quot;&gt;\(n \ast m\)&lt;/span&gt;的&lt;span
+class=&quot;math inline&quot;&gt;\(01\)&lt;/span&gt;矩阵的极大全&lt;span
+class=&quot;math inline&quot;&gt;\(1\)&lt;/span&gt;子矩阵数目</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第七场</title>
+    <link href="https://tusikalanse.com/posts/45ccc357.html"/>
+    <id>https://tusikalanse.com/posts/45ccc357.html</id>
+    <published>2019-08-08T04:34:00.000Z</published>
+    <updated>2019-08-08T04:34:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;荣膺全场罚时最高，为什么今天和昨天都是6题，今天的我却没有了昨天的快乐呢。。。&lt;/p&gt;
+&lt;h2 id=&quot;a.-string&quot;&gt;A. String&lt;/h2&gt;
+&lt;p&gt;solve at 00:28&lt;/p&gt;
+&lt;p&gt;给你一个&lt;span class=&quot;math inline&quot;&gt;\(01\)&lt;/span&gt;字符串&lt;span
+class=&quot;math inline&quot;&gt;\(s\)&lt;/span&gt;，你要将它分割成数量尽可能少的若干个串，使得每个串都是它的所有循环同构串中字典序最小的&lt;span
+class=&quot;math inline&quot;&gt;\((1&amp;lt;=T&amp;lt;=300, 1&amp;lt;=|s|&amp;lt;=200)\)&lt;/span&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第六场</title>
+    <link href="https://tusikalanse.com/posts/1bf3e891.html"/>
+    <id>https://tusikalanse.com/posts/1bf3e891.html</id>
+    <published>2019-08-07T07:04:00.000Z</published>
+    <updated>2019-08-07T07:04:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;过了6题，特别爽&lt;/p&gt;
+&lt;h2 id=&quot;nonsense-time&quot;&gt;1002. Nonsense Time&lt;/h2&gt;
+&lt;p&gt;solved at 02:55&lt;/p&gt;
+&lt;p&gt;有一个&lt;span class=&quot;math inline&quot;&gt;\(1-n\)&lt;/span&gt;的排列&lt;span
+class=&quot;math inline&quot;&gt;\(p\)&lt;/span&gt;, 一开始&lt;span
+class=&quot;math inline&quot;&gt;\(p\)&lt;/span&gt;所有位置全部无效，每次给出一个数&lt;span
+class=&quot;math inline&quot;&gt;\(k_i\)&lt;/span&gt;，意味着&lt;span
+class=&quot;math inline&quot;&gt;\(k_i\)&lt;/span&gt;这个位置的数开始有效，每次使一个数有效就输出当前有效序列的LIS长度，&lt;span
+class=&quot;math inline&quot;&gt;\((1&amp;lt;=n&amp;lt;=5e4)\)&lt;/span&gt;，保证数据是随机生成的</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019杭电多校第五场</title>
+    <link href="https://tusikalanse.com/posts/7efda348.html"/>
+    <id>https://tusikalanse.com/posts/7efda348.html</id>
+    <published>2019-08-07T06:15:00.000Z</published>
+    <updated>2019-08-07T06:15:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;three-arrays&quot;&gt;1002. three arrays&lt;/h2&gt;
+&lt;p&gt;upsloved&lt;/p&gt;
+&lt;p&gt;你有两个长为&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;的序列&lt;span
+class=&quot;math inline&quot;&gt;\(a,
+b\)&lt;/span&gt;，你可以任意打乱这两个序列，使得序列&lt;span
+class=&quot;math inline&quot;&gt;\(c\)&lt;/span&gt;字典序最小&lt;span
+class=&quot;math inline&quot;&gt;\((c_i = a_i\, xor\, b_i)\)&lt;/span&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="杭电多校" scheme="https://tusikalanse.com/tags/%E6%9D%AD%E7%94%B5%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第六场</title>
+    <link href="https://tusikalanse.com/posts/97ccb4c8.html"/>
+    <id>https://tusikalanse.com/posts/97ccb4c8.html</id>
+    <published>2019-08-07T06:01:00.000Z</published>
+    <updated>2019-08-07T06:01:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近实验室装修搬东西有点忙，就一直拖到现在。。。&lt;/p&gt;
+&lt;h2 id=&quot;a.-garbage-classification&quot;&gt;A. Garbage Classification&lt;/h2&gt;
+&lt;p&gt;solved at 00:14&lt;/p&gt;
+&lt;p&gt;签到题，垃圾分类</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客多校第五场</title>
+    <link href="https://tusikalanse.com/posts/f2c2ff11.html"/>
+    <id>https://tusikalanse.com/posts/f2c2ff11.html</id>
+    <published>2019-08-02T06:15:00.000Z</published>
+    <updated>2019-08-02T06:15:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;a.-digits2&quot;&gt;A. digits2&lt;/h2&gt;
+&lt;p&gt;solved at 00:47(+1)&lt;/p&gt;
+&lt;p&gt;签到题，将&lt;span class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;输出&lt;span
+class=&quot;math inline&quot;&gt;\(n\)&lt;/span&gt;次即可，不知道队友在想什么。。。</summary>
+    
+    
+    
+    <category term="算法" scheme="https://tusikalanse.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="牛客多校" scheme="https://tusikalanse.com/tags/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/"/>
+    
+  </entry>
+  
+</feed>
